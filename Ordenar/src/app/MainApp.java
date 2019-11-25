@@ -7,12 +7,12 @@ package app;
 
 import bubble.BubbleSort;
 import insertion.InsertionSort;
-import intercalação.Intercalação;
+import intercalacao.Intercalacao;
 import selection.SelectionSort;
 
 /**
  *
- * @author estagiario
+ * @author Gabriel Henrique
  */
 public class MainApp {
 
@@ -43,15 +43,15 @@ public class MainApp {
 		s.imprimeTempoOrdenacao(s.getVetor());
 		System.out.println("-------------------");
 
-		Intercalação in = new Intercalação();
+		Intercalacao in = new Intercalacao();
 		in.carregar(23, 17, 8, 15, 9, 12, 19, 7);
-		in.intercalação(0, 1, 2, in.getVetor());
-		in.intercalação(2, 3, 4, in.getVetor());
-		in.intercalação(4, 5, 6, in.getVetor());
-		in.intercalação(6, 7, 8, in.getVetor());
-		in.intercalação(0, 2, 4, in.getVetor());
-		in.intercalação(4, 6, 8, in.getVetor());
-		in.intercalação(0, 4, 8, in.getVetor());
+		in.intercalacao(0, 1, 2, in.getVetor());
+		in.intercalacao(2, 3, 4, in.getVetor());
+		in.intercalacao(4, 5, 6, in.getVetor());
+		in.intercalacao(6, 7, 8, in.getVetor());
+		in.intercalacao(0, 2, 4, in.getVetor());
+		in.intercalacao(4, 6, 8, in.getVetor());
+		in.intercalacao(0, 4, 8, in.getVetor());
 		in.imprimir();
 		
 	}

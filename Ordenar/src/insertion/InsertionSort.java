@@ -9,7 +9,7 @@ import ordenar.MetodoOrdenacaoAbstrato;
 
 /**
  *
- * @author estagiario
+ * @author Gabriel Henrique
  */
 public class InsertionSort extends MetodoOrdenacaoAbstrato {
 

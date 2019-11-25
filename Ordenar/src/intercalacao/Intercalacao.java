@@ -1,20 +1,20 @@
-package intercalação;
+package intercalacao;
 
 import ordenar.MetodoOrdenacaoAbstrato;
 
-public class Intercalação extends MetodoOrdenacaoAbstrato{
+public class Intercalacao extends MetodoOrdenacaoAbstrato{
 	
-	public Intercalação() {
+	public Intercalacao() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Intercalação(int tamanho) {
+	public Intercalacao(int tamanho) {
 		super(tamanho);
 		// TODO Auto-generated constructor stub
 	}
 
-	public void intercalação(int p, int q, int r, int[] vetor){
+	public void intercalacao(int p, int q, int r, int[] vetor){
 		int aux[] = new int[r - p];
 		int i = p;
 		int j = q;
