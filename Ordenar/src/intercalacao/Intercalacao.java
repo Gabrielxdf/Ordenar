@@ -3,7 +3,7 @@ package intercalacao;
 
 public abstract class Intercalacao {
 
-	public static void intercalação(int p, int q, int r, int[] vetor){
+	public static void intercalacao(int p, int q, int r, int[] vetor){
 		int aux[] = new int[r - p];
 		int i = p;
 		int j = q;

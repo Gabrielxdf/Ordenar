@@ -32,7 +32,7 @@ public class MergeSort extends MetodoOrdenacaoAbstrato {
 			int divisao = (inicio+tamanho)/2;
 			merge(inicio, divisao, vetor);
 			merge(divisao,tamanho, vetor);
-			Intercalacao.intercalação(inicio, divisao, tamanho, vetor);
+			Intercalacao.intercalacao(inicio, divisao, tamanho, vetor);
 		}
 	}
 
