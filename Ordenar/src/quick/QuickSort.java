@@ -19,7 +19,7 @@ public class QuickSort extends MetodoOrdenacaoAbstrato {
 		int i = inicio;
 		int j = fim;
 		int pivo = vetor[(i + j) / 2];
-		//tudo na esquerda tem que ser menor que o pivo
+		//tudo na esquerda/ tem que ser menor que o pivo
 		//e tudo na direita tem que ser maior que o pivo
 		while (i <= j) {
 			//procura um maior que o pivo na esquerda
